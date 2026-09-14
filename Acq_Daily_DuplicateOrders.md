@@ -1,4 +1,0 @@
-# Acq_Daily_DuplicateOrders
-This is a daily report checking the purchase orders created the previous business day for ISBN or OCLC matches in FOLIO. The start report date is the date the orders were created. The end report date is the date the report is being run. The end date is usually the day after the records were created but the next business day may also be several days later (report for Friday is run on Monday) in the case of weekends or holidays.
-
-The ISBNs and OCLC numbers are pulled from FOLIO instance records attached to the new orders and look for matches on other FOLIO records with the same ISBNs and OCLC numbers. The report excludes matches on the same record (instance attached to the new order matches on itself) and eliminates duplicates (multiple identifiers on the same new order/instance match on multiple identifiers on the same instance.) The same new order/instance may match on multiple records in FOLIO.
