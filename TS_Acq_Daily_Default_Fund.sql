@@ -1,8 +1,8 @@
---metadb:function Acq_Daily_Default_Fund
+--metadb:function TS_Acq_Daily_Default_Fund
 
-DROP FUNCTION IF EXISTS Daily_Default_Fund;
+DROP FUNCTION IF EXISTS TS_Acq_Daily_Default_Fund;
 
-CREATE OR REPLACE FUNCTION Daily_Default_Fund(
+CREATE FUNCTION TS_Acq_Daily_Default_Fund(
     )
 RETURNS TABLE (
     vendor text,
