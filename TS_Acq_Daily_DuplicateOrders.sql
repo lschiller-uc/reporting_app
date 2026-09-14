@@ -1,7 +1,7 @@
---metadb:function Acq_Daily_DuplicateOrders
+--metadb:function TS_Acq_Daily_DuplicateOrders
 
-DROP FUNCTION IF EXISTS DuplicateOrders(date, date);
-CREATE OR REPLACE FUNCTION DuplicateOrders(
+DROP FUNCTION IF EXISTS TS_Acq_DuplicateOrders(date, date);
+CREATE FUNCTION TS_Acq_DuplicateOrders(
     start_date date DEFAULT NULL,
     end_date date DEFAULT NULL
 )
