@@ -1,5 +1,5 @@
 {
-  "displayName": "Acq_Weekly_Approval_Orders",
+  "displayName": "TS_Acq_Weekly_Approval_Orders",
   "description": "Run weekly on Fridays. Report returns purchase order line information to all approval orders created from the previous Friday to the Thursday before the report is run.",
   "instructions": "Input dates of previous Friday and today's date.",
   "parameters": [
