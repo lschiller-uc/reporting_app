@@ -1,0 +1,7 @@
+{
+    "displayName": "Acq_Daily_Default_Fund",
+    "description": "Report looks for purchase order lines with fund code GCOMG created by acquisitions loading staff.",
+    "instructions": "Run to return results created within the last seven days.",
+    "parameters": [
+  ]
+}
