@@ -1,0 +1,2 @@
+# TS_Acq_Approvals_SumTotals
+This report is run weekly on Fridays. It returns the sum of purchase order line estimated prices and invoice line totals from the beginning of the fiscal year through the day before the report is being run. These sums are grouped by vendor, bill to address, purchase order fund, vendor account number, fund in the requester field, and the invoice fund code.
