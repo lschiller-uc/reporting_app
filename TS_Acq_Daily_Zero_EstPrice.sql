@@ -1,9 +1,9 @@
 
---metadb:function Acq_Daily_Zero_EstPrice
+--metadb:function TS_Acq_Daily_Zero_EstPrice
 
-DROP FUNCTION Acq_Daily_Zero_EstPrice();
+DROP FUNCTION TS_Acq_Daily_Zero_EstPrice();
 
-CREATE FUNCTION Acq_Daily_Zero_EstPrice(
+CREATE FUNCTION TS_Acq_Daily_Zero_EstPrice(
     )
 RETURNS TABLE (
 	vendor text,
