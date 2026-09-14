@@ -1,7 +1,7 @@
--- metadb:function Acq_Weekly_Approval_Orders
-DROP FUNCTION IF EXISTS Acq_Weekly_Approval_Orders(date,date);
+-- metadb:function TS_Acq_Weekly_Approval_Orders
+DROP FUNCTION IF EXISTS TS_Acq_Weekly_Approval_Orders(date,date);
 
-CREATE OR REPLACE FUNCTION Acq_Weekly_Approval_Orders(
+CREATE FUNCTION TS_Acq_Weekly_Approval_Orders(
     start_date date DEFAULT NULL,
     run_date date DEFAULT current_date
 )
