@@ -1,7 +1,7 @@
--- metadb:function Acq_Approvals_SumTotals
-DROP FUNCTION IF EXISTS Acq_Approvals_SumTotals(date);
+-- metadb:function TS_Acq_Approvals_SumTotals
+DROP FUNCTION IF EXISTS TS_Acq_Approvals_SumTotals(date);
 
-CREATE OR REPLACE FUNCTION Acq_Approvals_SumTotals(
+CREATE OR REPLACE FUNCTION TS_Acq_Approvals_SumTotals(
     run_date date DEFAULT current_date
 )
 RETURNS TABLE (
